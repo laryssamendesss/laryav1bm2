@@ -1,53 +1,24 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background: #0f2027;
-  color: white;
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
 }
 
-/* HERO */
 .hero {
-  height: 100vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('https://images.unsplash.com/photo-1512820790803-83ca734da794');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  padding: 80px 0;
 }
 
-/* Busca */
-.search-box {
-  max-width: 600px;
-  width: 100%;
-}
-
-.search-box input {
-  border-radius: 30px 0 0 30px;
-  padding: 15px;
-  border: none;
-}
-
-.search-box button {
-  border-radius: 0 30px 30px 0;
-  font-weight: 600;
-}
-
-/* Cards */
 .card {
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(15px);
-  border: none;
-  border-radius: 20px;
-  color: white;
-  transition: 0.4s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-.capa {
-  height: 260px;
+.card img {
+  height: 250px;
   object-fit: cover;
-  border-radius: 20px 20px 0 0;
 }
